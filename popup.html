@@ -2,31 +2,11 @@
 <html>
 <head>
     <meta charset="GBK">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            width: 600px;
-            height: 800apx;
-        }
-
-        div {
-            line-height: 100px;
-            font-size: 14px;
-            text-align: center;
-        }
-        table thead{
-            height: 50px;
-            font-size: 14px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div id="_div">
-    <div><a href="https://consumeprod.alipay.com/record/standard.htm" target="_blank">账单地址</a></div>
+    <div class="ali-link"><a href="https://consumeprod.alipay.com/record/standard.htm" target="_blank">账单地址</a></div>
     <table id="recordTable">
         <thead>
         <tr>
@@ -68,6 +48,7 @@
         <!--</tr>-->
 
         </thead>
+        <tbody></tbody>
     </table>
 </div>
 <script src="js/jquery-3.2.1.min.js"></script>

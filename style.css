@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 600px;
+    height: 800px;
+}
+
+.ali-link {
+    padding: 30px 0;
+}
+
+#_div {
+    line-height: 100%;
+    font-size: 14px;
+    text-align: center;
+}
+#recordTable{
+    margin: 0 auto;
+}
+#recordTable thead{
+    height: 50px;
+}
+#recordTable tbody tr{
+    height: 50px;
+}
+#recordTable tbody td{
+    padding: 5px;
+}
+.name.p-inline.ft-gray{
+    display: inline;
+}
+.consume-bizNo.ft-gray.fn-pr.J-tradeNo-container.p-inline{
+    display: inline;
+}
+
+td.img img {
+    width: 30px;
+    height: 30px;
+}
+td.operation .btn-group li {
+    list-style: none;
+    display: inline;
+}
+td.detail a.record-icon.icon-detail.icon-detail-trigger img {
+    width: 18px;
+    height: 18px;
+}
+td.detail span.record-icon.icon-memo{
+    display: none;
+}
+.operation {
+    display: none;
+}
