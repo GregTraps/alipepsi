@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "阿里百事",
+  "version": "1.0",
+  "description": "监测阿里账单",
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/icon.png",
+      "38": "images/icon.png"
+    },
+    "default_title": "alipepsi",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://consumeprod.alipay.com/record/standard.htm"],
+      "js": ["js/jquery-3.2.1.min.js","js/pepsi.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["js/jquery-3.2.1.min.js","js/background.js"]
+  },
+  "permissions": [
+    "tabs",
+    "notifications",
+    "storage",
+    "*://consumeprod.alipay.com/record/standard.htm"
+  ]
+}
