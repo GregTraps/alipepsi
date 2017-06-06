@@ -29,7 +29,7 @@ window.setTimeout(function () {
 
 
 //4test
-console.log(compareData(recordTable,false));
+// console.log(compareData(recordTable,false));
 
 
 function compareData(newOne,oldOne) {
